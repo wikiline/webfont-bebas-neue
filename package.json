@@ -4,7 +4,7 @@
   "description": "Package for integrating WebFont Bebas Neue",
   "main": "./css/all.css",
   "files": [
-    "./css/**/*.{css}",
+    "./css/*.{css}",
     "./fonts/*.{woff,woff2}",
     "./less/**/*.{less}",
     "./scss/**/*.{scss}"
