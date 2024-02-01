@@ -21,7 +21,7 @@ Font files are located in the `fonts/` directory. To import all fonts, you can u
 
 ```css
 body {
-    font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
 }
 ```
 
@@ -58,9 +58,57 @@ variables are not defined:
 
 ```css
 :root {
-    --font-display: swap;
-    --font-display-bebas-neue: swap;
+  --font-display: swap;
+  --font-display-bebas-neue: swap;
 }
+```
+
+## Usage (LESS)
+
+Font files are located in the `fonts/` directory. To import all fonts, you can use:
+
+```less
+body {
+  font-family: 'Bebas Neue', sans-serif;
+}
+```
+
+### Importing
+
+```less
+@import "~@wikiline/webfont-bebas-neue/src/less/all";
+@import "~@wikiline/webfont-bebas-neue/src/less/all-normal";
+```
+
+To import specific fonts, you can use:
+
+```less
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-100";
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-100-normal";
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-200";
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-200-normal";
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-300";
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-300-normal";
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-400";
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-400-normal";
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-700";
+@import "~@wikiline/webfont-bebas-neue/src/less/weight-700-normal";
+```
+
+### Variables
+
+Each font uses the following LESS variables to set the font display property with the default `swap` value if SCSS
+variables are not defined:
+
+```less
+@font-display: swap;
+@font-display-bebas-neue: swap;
+```
+
+You can declare these variables globally or import them from a file: `_variables.less`.
+
+```less
+@import "~@wikiline/webfont-bebas-neue/src/less/config/_variables";
 ```
 
 ## Usage (SCSS)
@@ -69,7 +117,7 @@ Font files are located in the `fonts/` directory. To import all fonts, you can u
 
 ```scss
 body {
-    font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
 }
 ```
 
