@@ -28,25 +28,25 @@ body {
 ### Importing
 
 ```css
-@import "~@wikiline/webfont-bebas-neue/src/css/all.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/all-normal.css";
+@import "~@wikiline/webfont-bebas-neue/css/all.css";
+@import "~@wikiline/webfont-bebas-neue/css/all-normal.css";
 ```
 
 To import specific fonts, you can use:
 
 ```css
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-100.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-100-normal.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-200.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-200-normal.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-300.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-300-normal.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-400.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-400-normal.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-500.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-500-normal.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-700.css";
-@import "~@wikiline/webfont-bebas-neue/src/css/weight-700-normal.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-100.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-100-normal.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-200.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-200-normal.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-300.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-300-normal.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-400.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-400-normal.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-500.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-500-normal.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-700.css";
+@import "~@wikiline/webfont-bebas-neue/css/weight-700-normal.css";
 ```
 
 Note: Also, each file is presented in a minimized form.
@@ -76,23 +76,23 @@ body {
 ### Importing
 
 ```less
-@import "~@wikiline/webfont-bebas-neue/src/less/all";
-@import "~@wikiline/webfont-bebas-neue/src/less/all-normal";
+@import "~@wikiline/webfont-bebas-neue/less/all";
+@import "~@wikiline/webfont-bebas-neue/less/all-normal";
 ```
 
 To import specific fonts, you can use:
 
 ```less
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-100";
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-100-normal";
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-200";
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-200-normal";
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-300";
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-300-normal";
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-400";
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-400-normal";
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-700";
-@import "~@wikiline/webfont-bebas-neue/src/less/weight-700-normal";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-100";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-100-normal";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-200";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-200-normal";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-300";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-300-normal";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-400";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-400-normal";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-700";
+@import "~@wikiline/webfont-bebas-neue/less/_weight-700-normal";
 ```
 
 ### Variables
@@ -105,10 +105,10 @@ variables are not defined:
 @font-display-bebas-neue: swap;
 ```
 
-You can declare these variables globally or import them from a file: `_variables.less`.
+or
 
 ```less
-@import "~@wikiline/webfont-bebas-neue/src/less/config/_variables";
+@import "~@wikiline/webfont-bebas-neue/less/config/_variables";
 ```
 
 ## Usage (SCSS)
@@ -124,23 +124,23 @@ body {
 ### Importing
 
 ```scss
-@import "~@wikiline/webfont-bebas-neue/src/scss/all";
-@import "~@wikiline/webfont-bebas-neue/src/scss/all-normal";
+@import "~@wikiline/webfont-bebas-neue/scss/all";
+@import "~@wikiline/webfont-bebas-neue/scss/all-normal";
 ```
 
 To import specific fonts, you can use:
 
 ```scss
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-100";
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-100-normal";
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-200";
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-200-normal";
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-300";
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-300-normal";
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-400";
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-400-normal";
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-700";
-@import "~@wikiline/webfont-bebas-neue/src/scss/weight-700-normal";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-100";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-100-normal";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-200";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-200-normal";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-300";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-300-normal";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-400";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-400-normal";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-700";
+@import "~@wikiline/webfont-bebas-neue/scss/weight-700-normal";
 ```
 
 ### Variables
